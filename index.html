@@ -10,6 +10,14 @@
 <body>
   <h1>Automate Tags</h1>
   <p>Automate tags is a simple tool to automate the process of adding tags to your posts.</p>
+
+  <form action="tags.php" method="post">
+    <label for="tags">Tags:</label><br>
+    <input type="text" id="tags" name="tags" value="tag1, tag2, tag3"><br><br>
+    <label for="content">Content:</label><br>
+    <textarea id="content" name="content" rows="4" cols="50">Content goes here...</textarea><br><br>
+    <input type="submit" value="Submit">
+  </form>
 </body>
 
 </html>
